@@ -327,28 +327,45 @@
                     <!-- Author Name -->
                     <p class="mt-16 font-serif-display text-2xl text-gold-400 tracking-widest">HADIZA BAGUDU</p>
                     
-                    <!-- Book Cover Placeholder -->
-                    <div class="mt-12 flex justify-center">
-                        <div class="relative w-64 h-96 bg-gradient-to-br from-teal-600 to-midnight-800 rounded-lg shadow-2xl shadow-black/50 border border-gold-500/30 overflow-hidden group hover:scale-105 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=400&q=80')] bg-cover bg-center opacity-60"></div>
-                            <div class="absolute inset-0 bg-gradient-to-t from-midnight-950 via-transparent to-transparent"></div>
-                            <div class="absolute bottom-0 left-0 right-0 p-6 text-center">
-                                <p class="text-gold-400 text-xs tracking-widest mb-2">FROM THE BESTSELLING AUTHOR OF 'FANTAH'</p>
-                                <h3 class="font-serif-display text-3xl text-white mb-2">MELODY</h3>
-                                <p class="text-teal-300 text-sm italic">Greatest Hits</p>
-                                <div class="mt-4 flex justify-center gap-1">
-                                    <div class="w-1 h-8 bg-gold-400 music-wave" style="animation-delay: 0s"></div>
-                                    <div class="w-1 h-6 bg-gold-400 music-wave" style="animation-delay: 0.1s"></div>
-                                    <div class="w-1 h-10 bg-gold-400 music-wave" style="animation-delay: 0.2s"></div>
-                                    <div class="w-1 h-7 bg-gold-400 music-wave" style="animation-delay: 0.3s"></div>
-                                    <div class="w-1 h-9 bg-gold-400 music-wave" style="animation-delay: 0.4s"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    <!-- Book Cover and Video Section -->
+<div class="mt-12 flex flex-col md:flex-row justify-center items-center gap-8">
+    <!-- Book Cover -->
+    <div class="relative w-64 h-96 bg-gradient-to-br from-teal-600 to-midnight-800 rounded-lg shadow-2xl shadow-black/50 border border-gold-500/30 overflow-hidden group hover:scale-105 transition-transform duration-500">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=400&q=80')] bg-cover bg-center opacity-60"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-midnight-950 via-transparent to-transparent"></div>
+        <div class="absolute bottom-0 left-0 right-0 p-6 text-center">
+            <p class="text-gold-400 text-xs tracking-widest mb-2">FROM THE BESTSELLING AUTHOR OF 'FANTAH'</p>
+            <h3 class="font-serif-display text-3xl text-white mb-2">MELODY</h3>
+            <p class="text-teal-300 text-sm italic">Greatest Hits</p>
+            <div class="mt-4 flex justify-center gap-1">
+                <div class="w-1 h-8 bg-gold-400 music-wave" style="animation-delay: 0s"></div>
+                <div class="w-1 h-6 bg-gold-400 music-wave" style="animation-delay: 0.1s"></div>
+                <div class="w-1 h-10 bg-gold-400 music-wave" style="animation-delay: 0.2s"></div>
+                <div class="w-1 h-7 bg-gold-400 music-wave" style="animation-delay: 0.3s"></div>
+                <div class="w-1 h-9 bg-gold-400 music-wave" style="animation-delay: 0.4s"></div>
             </div>
-
+        </div>
+    </div>
+    
+    <!-- Video Trailer - Embedded -->
+    <div class="w-full md:w-96">
+        <div class="glass-panel rounded-xl p-4">
+            <div class="rounded-lg overflow-hidden shadow-2xl border border-gold-500/30">
+                <iframe 
+                    width="100%" 
+                    height="215" 
+                    src="https://www.youtube.com/embed/OZ7-fxFvyx4?si=Ktc8djEO1qkLwDcP" 
+                    title="Melody Book Trailer" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <p class="text-center mt-3 text-gold-400 text-sm tracking-wider font-sans">OFFICIAL BOOK TRAILER</p>
+        </div>
+    </div>
+</div>
             <!-- Bottom Gradient -->
             <div class="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-midnight-950 to-transparent"></div>
         </section>
@@ -2967,7 +2984,7 @@ But I love you enough to let you go.</em></p>
 },
           
 {
-    number: "Chapter Thirteen",
+    number: "Chapter Twelve",
     title: "MELODY FOREVER",
     subtitle: "The Legacy Lives On - 2015-Present",
     excerpt: "After six months of searching, the party was called off. Her father and husband both accepted that she was dead and urged everyone else to move on...",
@@ -3227,5 +3244,4 @@ But quitting is never an option.</em></p>
     </script>
 
 </body>
-
 </html>
