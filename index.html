@@ -3531,8 +3531,14 @@ But I love you enough to let you go.</em></p>
                 if (e.key === 'ArrowRight') nextChapter();
             });
         });
+        document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+    alert("Right-click is disabled on this page.");
+});
+
     </script>
 
 </body>
 </html>
+
 
